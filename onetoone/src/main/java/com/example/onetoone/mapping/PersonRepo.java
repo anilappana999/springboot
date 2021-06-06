@@ -1,4 +1,4 @@
-package com.example.onetoone.demo;
+package com.example.onetoone.mapping;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.CrudRepository;

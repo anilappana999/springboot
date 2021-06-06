@@ -1,4 +1,4 @@
-package com.example.onetoone.demo;
+package com.example.onetoone.mapping;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;

@@ -6,9 +6,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-import com.example.onetoone.demo.Adhaar;
-import com.example.onetoone.demo.Person;
-import com.example.onetoone.demo.PersonController;
+import com.example.onetoone.mapping.Adhaar;
+import com.example.onetoone.mapping.Person;
+import com.example.onetoone.mapping.PersonController;
 
 @SpringBootApplication
 public class OnetooneApplication  implements CommandLineRunner{
