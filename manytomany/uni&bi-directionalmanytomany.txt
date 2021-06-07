@@ -1,0 +1,17 @@
+note:source meansparent,target means child
+Difference between uni&bi-directional mappings(@ManyToMany):
+1)
+in unidirectional mapping we have @ManyToManyAnnotation at source entity only
+in bi-directional mapping we have @ManyToManyAnnotation at both source and target entities
+ 
+2)
+in unidirectional mapping we have reference in only source entity which refers target entity
+, seperate table is created here for showing relationship b/w tables, we can also give custom name for it in source entity
+in bidirectional mapping we have references in both source and target entities for each(explanation:
+like in source it have target reference and in target it have source reference)
+The source entity must use the mappedBy attribute to define the bidirectional one-to-one mapping.(mappedBy="reference declared in target entity")
+seperate table is created here for showing relationship b/w tables we can also give custom name for it in target entity
+
+4)
+ unidirectional mapping  provides navigational access in  one direction 
+bidirectional relationship provides navigational access in both directions
