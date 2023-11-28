@@ -1,0 +1,13 @@
+package com.sqs.SpringbootAppSQS;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SpringbootAppSqsApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
